@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Pankaj Madaan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html"><span class="avatar">PM</span><span class="brand-text">Pankaj Madaan</span></a>
+      <nav class="nav" aria-label="Main navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
+        <ul id="nav-menu" class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button id="themeToggle" title="Toggle theme">🌓</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h2>Get in touch</h2>
+      <p>If you'd like to discuss a role, contract, or collaboration, drop a note:</p>
+      <form id="contactForm" action="https://formsubmit.co/pmadaan766@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="Website contact: New message">
+        <input type="hidden" name="_captcha" value="false">
+        <label class="small-muted">Your name<br><input required name="Name" style="width:100%;padding:8px;margin-top:6px;border-radius:8px;border:1px solid rgba(15,23,42,0.06)"></label>
+        <label class="small-muted" style="display:block;margin-top:8px">Your email<br><input required name="Email" type="email" style="width:100%;padding:8px;margin-top:6px;border-radius:8px;border:1px solid rgba(15,23,42,0.06)"></label>
+        <label class="small-muted" style="display:block;margin-top:8px">Message<br><textarea required name="Message" rows="6" style="width:100%;padding:8px;margin-top:6px;border-radius:8px;border:1px solid rgba(15,23,42,0.06)"></textarea></label>
+        <div style="margin-top:10px"><button class="btn primary" type="submit">Send</button></div>
+      </form>
+      <p class="small-muted" style="margin-top:10px">Or email: <a href="mailto:pmadaan766@gmail.com">pmadaan766@gmail.com</a></p>
+                  <p class="small-muted">Call: <a href="tel:+16476498968">+1 (647) 649-8968</a></p>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">© Pankaj Madaan — <span class="muted">2026</span></footer>
+</body>
+</html>

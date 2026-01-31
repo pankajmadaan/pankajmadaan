@@ -1,152 +1,161 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pankaj Madaan | Full Stack Developer</title>
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f6f8;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: auto;
-      background: #fff;
-      padding: 40px;
-    }
-
-    header {
-      border-bottom: 2px solid #eee;
-      padding-bottom: 20px;
-      margin-bottom: 30px;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 36px;
-    }
-
-    .title {
-      font-size: 18px;
-      color: #555;
-    }
-
-    .contact a {
-      color: #007acc;
-      text-decoration: none;
-      margin-right: 10px;
-      font-size: 14px;
-    }
-
-    section {
-      margin-bottom: 30px;
-    }
-
-    h2 {
-      border-left: 4px solid #007acc;
-      padding-left: 10px;
-      font-size: 22px;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    li {
-      margin-bottom: 8px;
-    }
-
-    footer {
-      text-align: center;
-      color: #777;
-      font-size: 14px;
-      margin-top: 40px;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pankaj Madaan — Full Stack Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-  <div class="container">
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html"><span class="avatar">PM</span></a>
+      <nav class="nav" aria-label="Main navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
+        <ul id="nav-menu" class="nav-list">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a class="btn primary" href="assets/PankajResume.pdf" target="_blank" rel="noopener noreferrer" download>Download PDF</a>
+      </div>
+    </div>
+  </header>
 
-    <header>
-      <h1>Pankaj Madaan</h1>
-      <p class="title">Full Stack Developer | React • Node • Python</p>
-      <p class="contact">
-        Mississauga, ON |
-        <a href="mailto:pmadaan766@gmail.com">pmadaan766@gmail.com</a> |
-        <a href="https://www.linkedin.com/in/pankaj-madaan-12558015" target="_blank">LinkedIn</a>
-      </p>
-    </header>
+  <main class="wrap site-main">
+    <section class="hero">
+      <div class="hero-left">
+        <h1>Pankaj Madaan</h1>
+                    <p class="muted">Full Stack Developer — Mississauga, Ontario, Canada</p>
 
-    <section>
-      <h2>Professional Summary</h2>
-      <p>
-        Full Stack Developer with 5+ years of experience building scalable,
-        secure, and high-performing web applications. Strong expertise in
-        ReactJS, NodeJS, Python (FastAPI), and cloud platforms. Proven ability
-        to lead teams and deliver solutions aligned with business goals.
-      </p>
+        <p class="lead"> React • Node • Python • Azure</p>
+        <p class="muted">6+ years building scalable, secure web applications. Experienced in frontend, backend, cloud and CI/CD.</p>
+        <div class="cta-row">
+          <a class="btn" href="projects.html">See Projects</a>
+          <a class="btn ghost" href="contact.html">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="card stats">
+          <div class="stat"><div class="stat-value">6+</div><div class="stat-label">Years Experience</div></div>
+          <div class="stat"><div class="stat-value">10+</div><div class="stat-label">Major Projects</div></div>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Technical Skills</h2>
-      <ul>
-        <li><strong>Frontend:</strong> ReactJS, Redux, MobX, Material UI</li>
-        <li><strong>Backend:</strong> NodeJS, Express, FastAPI</li>
-        <li><strong>Languages:</strong> JavaScript, TypeScript, Python</li>
-        <li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB</li>
-        <li><strong>Cloud:</strong> AWS, Azure</li>
-        <li><strong>Tools:</strong> Git, Jira, Bitbucket, Jest, Postman</li>
-      </ul>
-    </section>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="profile">
+              <section class="card" style="margin-top:12px">
+            <h2>Contact & Links</h2>
+            <p class="small-muted">Email: <a href="mailto:pmadaan766@gmail.com">pmadaan766@gmail.com</a></p>
+            <p class="small-muted">Call: <a href="tel:+16476498968">+1 (647) 649-8968</a></p>
 
-    <section>
-      <h2>Experience</h2>
+            <p class="small-muted">LinkedIn: <a href="https://www.linkedin.com/in/pankaj-madaan-125580154/" target="_blank" rel="noopener">https://www.linkedin.com/in/pankaj-madaan-125580154/</a></p>
+        </section>
+         
+        </div>
 
-      <p><strong>Specialist Programmer</strong> – Kraft Heinz (via Infosys)</p>
-      <p><em>Sep 2022 – Present</em></p>
-      <ul>
-        <li>Built responsive applications using ReactJS, NodeJS, FastAPI</li>
-        <li>Improved API performance by 30%</li>
-        <li>Led a team of 4 developers and reduced manual reporting by 50%</li>
-        <li>Implemented Redux and CI/CD pipelines</li>
-      </ul>
+        <div class="block">
+          <h3>Skills</h3>
+          <div class="chips">
+            <span class="chip">React</span>
+            <span class="chip">TypeScript</span>
+            <span class="chip">Node.js</span>
+            <span class="chip">FastAPI</span>
+            <span class="chip">Python</span>
+            <span class="chip">Postgres</span>
+            <span class="chip">MongoDB</span>
+            <span class="chip">AWS</span>
+            <span class="chip">Azure</span>
+          </div>
+        </div>
 
-      <p><strong>Software Engineer</strong> – Q.A. Infotech (Qualitest)</p>
-      <p><em>Jan 2020 – Sep 2022</em></p>
-      <ul>
-        <li>Developed backend services using NodeJS and Prisma</li>
-        <li>Created responsive UIs with ReactJS and Material UI</li>
-        <li>Designed secure databases in Postgres and MongoDB</li>
-      </ul>
-    </section>
+        <div class="block">
+          <h3>Tools</h3>
+          <ul class="list">
+            <li>Git • Docker • Jira</li>
+            <li>Postman • Jest • CI/CD</li>
+          </ul>
+        </div>
 
-    <section>
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>Data Manager App:</strong> Full-stack app with pagination, charts, Excel import/export</li>
-        <li><strong>Collaboration App:</strong> React frontend with subscriptions and notifications</li>
-        <li><strong>Healthcare Portal:</strong> Backend APIs with Twilio SMS & Stripe</li>
-        <li><strong>E-Learning Platform:</strong> Microservices using NodeJS and AWS</li>
-      </ul>
-    </section>
+        <div class="block">
+          <h3>Education</h3>
+          <div class="edu-list">
+            <div class="edu-item">
+              <strong>Master in Computer Applications</strong>
+              <div class="small-muted">Chandigarh Group of Colleges — Mohali · 01/2020</div>
+            </div>
+            <div class="edu-item" style="margin-top:8px">
+              <strong>Bachelor in Computer Applications</strong>
+              <div class="small-muted">Arya College — Ludhiana · 01/2017</div>
+            </div>
+          </div>
+        </div>
+      </aside>
 
-    <section>
-      <h2>Education</h2>
-      <p><strong>MCA</strong> – Chandigarh Group of Colleges, Mohali (2020)</p>
-      <p><strong>BCA</strong> – Arya College, Ludhiana (2017)</p>
-    </section>
+      <main class="content">
+        <section class="card">
+          <h3>Professional Summary</h3>
+          <p>Experienced Full Stack Developer focused on building robust and maintainable web applications. Comfortable driving projects end-to-end — from prototyping UIs to designing scalable APIs and deploying services to cloud platforms.</p>
+        </section>
 
-    <footer>
-      © 2026 Pankaj Madaan
-    </footer>
+        <section class="card">
+          <h3>Experience</h3>
+          <article class="job">
+            <h4>Specialist Programmer — Kraft Heinz (via Infosys)</h4>
+            <div class="meta">Sep 2022 — Present</div>
+            <p>Built frontend and backend features for Internal Kraft heinz application using ReactJS, Redux, Python and Azure. Worked on creating CI/CD pipelines and azure functions to track metrics of app and store multimedia.</p>
+          </article>
 
-  </div>
+          <article class="job">
+            <h4>Software Engineer — Qualitest</h4>
+            <div class="meta">2020 — 2022</div>
+            <p>Developed multiple full stack web applications with ReactJS, MongoDB, Postgres, ExpressJS & NodeJS. Maintain and deploy applications to cloud-based systems Heroku and AWS.</p>
+          </article>
+
+         
+        </section>
+
+        <section class="card">
+          <h3>Projects & Highlights</h3>
+          <div class="project-grid">
+            <div class="project">
+              <h4>Data Manager App — Full-Stack Developer</h4>
+              <p>Built a data management platform with a responsive React/Redux UI and server APIs backed by an ORM. Implemented pagination, Excel import/export, and interactive analytics visualizations.</p>
+            </div>
+
+            <div class="project">
+              <h4>Collaboration App — Full-Stack Developer</h4>
+              <p>Developed the frontend and backend for a team collaboration product focused on engagement of employees in company.</p>
+            </div>
+
+            <div class="project">
+              <h4>Healthcare Portal — Backend Developer</h4>
+              <p>Designed and implemented RESTful backend services with role-based access control. Integrated Twilio SMS and Stripe payments for notifications and billing.</p>
+            </div>
+
+            <div class="project">
+              <h4>E‑Learning Platform — Full-Stack Developer</h4>
+              <p>Created a scalable e‑learning platform using React/MobX frontend and Node.js/Sequelize microservices, deployed via AWS CDK. Implemented subscriptions, server-side pagination, and Excel handling.</p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">© Pankaj Madaan — <span class="muted">2026</span></div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
 </body>
+
 </html>
